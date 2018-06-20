@@ -1,4 +1,4 @@
 class Chapter < ApplicationRecord
-  belongs_to :books
-  belongs_to :paragraphs
+  belongs_to :book
+  has_many :paragraphs
 end
